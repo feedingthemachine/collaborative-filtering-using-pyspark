@@ -3,7 +3,6 @@
 import json, requests
 from pyspark.sql import SparkSession
 
-spark = SparkSession.builder.master('local[*]').appName('helpers').getOrCreate()
 
 def load_json_from_url(url):
     """Collects json observations from an url and parse them into a valid pyspark.sql.dataframe.DataFrame
@@ -15,7 +14,6 @@ def load_json_from_url(url):
     tmp_requests = requests.get(url)
     # leemos y convertimos cada registro a un registro json válido
     tmp_json_load = [json.loads(line) for line in tmp_requests.iter_lines()]
-    # convertimos a un spark.sql.dataframe.DataFrame
     return tmp_json_load
 
 def get_als_factors_information(model, n_users = 3, n_items = 10):
