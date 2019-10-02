@@ -11,13 +11,15 @@ El objetivo de este workshop es implementar métodos de filtro colaborativo para
 
 ## Guía de Instalación
 
-La instalación de PySpark dependerá del tipo de sistema operativo que utilicen. En el documento [Formas de Instalación de PySpark](./instalacion_pyspark.pdf) encontrarán un paso a paso. Dentro de este documento también encontrarán un link a un Google Colaboratory notebook en caso de fallar con la instalación local. Este notebook tendrá todas las instalaciones escritas, listas para ejecutar y configurar el ambiente de trabajo.
+La instalación de PySpark dependerá del tipo de sistema operativo que utilicen. En el documento [Formas de Instalación de PySpark](./pdfs/instalacion_pyspark.pdf) encontrarán un paso a paso. Dentro de este documento también encontrarán un link a un Google Colaboratory notebook en caso de fallar con la instalación local. Este notebook tendrá todas las instalaciones escritas, listas para ejecutar y configurar el ambiente de trabajo.
+
+* Acceso rápido al notebook en Google Colab: [https://colab.research.google.com/drive/1pfg1y1o32LRFFKBmsgcWYcYd8eC69IFM](https://colab.research.google.com/drive/1pfg1y1o32LRFFKBmsgcWYcYd8eC69IFM)
 
 
 
 ## Slides
 
-La presentación se encuentra en formato printer friendly en el siguiente link: [Presentación](./printer_friendly_copy.pdf).
+La presentación se encuentra en formato printer friendly en el siguiente link: [Presentación](./pdfs/printer_friendly_copy.pdf).
 
 ## Changelog
 
