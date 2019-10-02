@@ -17,9 +17,9 @@ La instalación de PySpark dependerá del tipo de sistema operativo que utilicen
 
 ## Slides
 
-La presentación se encuentra en formato printer friendly en el siguiente link: __AÑADIR LINK__.
+La presentación se encuentra en formato printer friendly en el siguiente link: [Presentación](./printer_friendly_copy.pdf).
 
 ## Changelog
 
 * September, 12th. Init repo. Add README
-* October, 2th. Add Install Guides for Windows and MacOSX. Add helpers file. Add `json` and `csv` files. Modify README to reflect latest changes.
+* October, 2th. Add Install Guides for Windows and MacOSX. Add helpers file. Add `json` and `csv` files. Modify README to reflect latest changes. Add slides.
