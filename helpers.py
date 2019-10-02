@@ -16,7 +16,7 @@ def load_json_from_url(url):
     # leemos y convertimos cada registro a un registro json válido
     tmp_json_load = [json.loads(line) for line in tmp_requests.iter_lines()]
     # convertimos a un spark.sql.dataframe.DataFrame
-    return spark.createDataFrame(tmp_json_load)
+    return tmp_json_load
 
 def get_als_factors_information(model, n_users = 3, n_items = 10):
     """Report summary on factor loadings at item and user level
