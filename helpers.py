@@ -3,6 +3,7 @@
 import json, requests
 from pyspark.sql import SparkSession
 
+spark = SparkSession.builder.master('local[*]').appName('helpers').getOrCreate()
 
 def load_json_from_url(url):
     """Collects json observations from an url and parse them into a valid pyspark.sql.dataframe.DataFrame
