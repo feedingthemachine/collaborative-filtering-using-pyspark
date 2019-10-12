@@ -21,6 +21,10 @@ La instalación de PySpark dependerá del tipo de sistema operativo que utilicen
 
 La presentación se encuentra en formato printer friendly en el siguiente link: [Presentación](./pdfs/printer_friendly_copy.pdf).
 
+## Notebook
+
+El notebook con el taller desarrollado se encuentra [Aquí](./advanced_solutions.ipynb)
+
 ## Changelog
 
 * September, 12th. Init repo. Add README
